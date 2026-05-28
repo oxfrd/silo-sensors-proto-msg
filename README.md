@@ -1,0 +1,1 @@
+# silo-sensors-proto-msg
