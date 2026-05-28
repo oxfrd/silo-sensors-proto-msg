@@ -1,0 +1,12 @@
+syntax = "proto3";
+package silo;
+
+message SensorSnapshot {
+  string sensor_id = 1;
+  optional float temperature = 2;
+  optional uint32 alarm_code = 3;
+}
+
+message MonitoringSnapshot {
+  repeated SensorSnapshot sensors = 1;
+}
